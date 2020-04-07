@@ -5,8 +5,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-
-
 const prompt = () => {rl.question('', (input) => {
     if (input === 'b') {
       process.stdout.write('\r \x07');
